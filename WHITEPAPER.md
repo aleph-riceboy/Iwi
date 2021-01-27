@@ -2,7 +2,7 @@
 Eric Donner
 
 Bitcoin and Ethereum are great cryptocurrencies but they are slow and are not meant for people to use them for daily transactions like buying a coffee.
-Bitcoin and only do around 4 per second (tx/s). Ethereum can do around 15 tx/s but it's still really slow compared to visa's reportedly 24,000 tx/s.
+Bitcoin can only do around 4 per second (tx/s). Ethereum can do around 15 tx/s but it's still really slow compared to visa's reportedly 24,000 tx/s.
 Therefore you could argue that you should just use a fiat currency but the whole point of cryptocurrencies is so that we don't have to rely on currencies that are controlled by a government.
 
 Other cryptocurrencies have gotten higher transaction speeds but aren't that popular and don't have that much value like Bitcoin and Ethereum.
@@ -20,7 +20,7 @@ Iwi hopes to solve these problems that Bitcoin and Ethereum have, among others:
 
 * Size of the blockchain
 * Blockchain mining
-* Paying in different currencies
+* Sidechains
 
 ### Size of the Blockchain
 Because of how blockchains are designed and made, the more computers in the network, the size of the blockchain becomes bigger.
@@ -47,7 +47,10 @@ Beta Node <- Alpha Node
 ### Blockchain mining
 Blockchains that use the proof of work algorithm take to much energy up and lead to more centralization of the network as more miners leave or join a mining pool.
 Also with a pow blockchain, they can't increase their transaction speeds which are way to slow for a cryptocurrency for everyday transactions.
-To solve these problems we can just use a different algorithm. Ethereum 2.0 will use a proof of stake which will use less energy and will be faster.
-But to increase our speeds even more, we can use a delegated proof of stake algorithm.
+To solve these problems we can just use a different algorithm. Ethereum 2.0 will use a proof of stake algorithm (PoS) which will use less energy and will be faster.
+But to increase our speeds even more, we can use a delegated proof of stake algorithm (DPoS).
 This algorithm is like proof of stake, you have to stake your coins and run a node but has a certain number of validators that are elected.
 By having less validators which are elected by users themselves, we can further increase the speed and efficiency of the network.
+
+### Sidechains
+With sidechains we can then increase performance even further by splitting up different transactions between different chain.
